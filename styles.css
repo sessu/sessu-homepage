@@ -299,4 +299,8 @@ section p em {
     #section-projects table {
         width: calc(100% - 5px);
     }
+
+    nav>.branding {
+        display: none;
+    }
 }
