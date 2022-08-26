@@ -274,7 +274,6 @@ section p em {
 }
 
 /* MEDIA QUERIES */
-
 @media (max-width: 75em) {
     html {
         font-size: 90%;
@@ -287,5 +286,17 @@ section p em {
     }
     nav {
         font-size: 1rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    #section-projects {
+        width: 100%;
+    }
+
+    #section-projects table {
+        width: calc(100% - 5px);
     }
 }
